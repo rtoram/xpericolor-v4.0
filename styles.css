@@ -1,0 +1,28 @@
+.color-block {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--card-bg);
+    color: var(--text);
+    font-size: 0.8rem;
+    position: relative;
+}
+
+.color-code {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: var(--accent);
+}
+
+.copy-button {
+    margin-top: 5px;
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
